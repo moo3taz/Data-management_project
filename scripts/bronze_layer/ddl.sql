@@ -81,7 +81,7 @@ GO
 
 
 
-create or alter procedure bronze_layer.load_bronze as
+create or alter procedure bronze_layer.load_bronze as 
 begin
 declare @start_time datetime , @end_time datetime
    begin try
